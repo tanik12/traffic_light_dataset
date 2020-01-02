@@ -12,8 +12,15 @@ traffic_light_datasetを取得してVOC形式に変更するためのリポジ�
 欲しい人はご連絡ください。<br>
 オープンデータセットが今後増えていくことを願っています。<br>
 
+# VOC形式に変更する手順
+　1. git clone https://github.com/tanik12/traffic_light_dataset.git<br>
+　2. cd traffic_light_dataset<br>
+　3. traffic_light_dataset下にデータセットを配置 <br>
+　3. tar -zxvf traffic_light.tar.gz && python rename.py<br>
+　3. ○○○○○○○○○○○○○をしてVOC形式に変更する<br>
+
 # 余談
 どうやら、世界では縦型車両用信号機が主流のようです。<br>
 では、日本では縦型車両用信号機は存在しないのかというと実は存在します。<br>
 例えば、雪が降る地域では縦型信号機は存在します。<br>
-理由としては雪の重みで信号機が壊れないようにすると言った理由です。<br>
+理由としては雪の重みで信号機が落ちないようにすると言った理由です。<br>
